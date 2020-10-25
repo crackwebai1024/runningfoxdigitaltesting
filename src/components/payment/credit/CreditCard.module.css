@@ -1,0 +1,65 @@
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+  padding-left: 0px;
+  padding-top: 20px;
+  min-height: 50px;
+  width: 100%;
+}
+
+.lefttotal {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardmark {
+  width: 80px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fef;
+  border-radius: 5px;
+}
+
+.cardmark > img {
+  height: 35px;
+}
+.subcom1 {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 0rem;
+}
+
+.subcom2 {
+  padding-left: 15px;
+  padding-top: 0px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #aaa;
+  margin-bottom: 0.5rem;
+}
+
+.rightbox {
+  width: 70px;
+}
+
+.rightbox > input {
+  width: inherit;
+  height: 40px;
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #aaa;
+}
+
+.rightbox > input:focus {
+  border: solid 2px rgb(38, 87, 255);
+  outline: none;
+}

@@ -1,0 +1,55 @@
+.container {
+  border-radius: 10px;
+  min-height: 45vh;
+  margin-top: 5vh;
+  padding: 30px;
+}
+
+.comment {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.unselectrate {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.selectrate {
+  border: solid 2px rgb(38, 87, 255);
+  background-color: #fef;
+  border-radius: 5px;
+  margin-top: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.rateicon {
+  width: 55px;
+}
+
+.barlabel {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.procircle {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(38, 87, 255);
+  margin-top: -21px;
+  background-clip: content-box;
+  border: solid 2px rgb(38, 87, 255);
+  padding: 3px;
+}

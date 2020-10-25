@@ -1,0 +1,84 @@
+.wrapper {
+  border-radius: 15px;
+  background-color: #fff;
+  height: 100%;
+  padding: 5% 6%;
+}
+
+.comment {
+  color: #aaa;
+  max-width: 440px;
+}
+
+.total {
+  border: solid 2px rgb(38, 87, 255);
+  border-radius: 5px;
+  background-color: #eef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 120px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.lefttotal {
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ship {
+  background-image: url("./ship.png");
+  background-size: cover;
+  border-radius: 15px;
+  height: 80px;
+  width: 80px;
+}
+
+.subcom1 {
+  padding-top: 20px;
+  padding-left: 50px;
+  font-weight: 600;
+}
+
+.subcom2 {
+  padding-top: 0px;
+  padding-left: 50px;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(38, 87, 255);
+  letter-spacing: 2px;
+}
+
+.theme3 {
+  padding-top: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(38, 87, 255);
+  letter-spacing: 1.5px;
+}
+
+.emailinput {
+  height: 50px !important;
+}
+
+.btn {
+  text-transform: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: rgb(38, 87, 255) !important;
+  border-radius: 5px;
+}
+
+.btn > i {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .total {
+    display: block;
+  }
+}

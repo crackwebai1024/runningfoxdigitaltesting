@@ -1,0 +1,44 @@
+.container {
+  border-radius: 10px;
+  min-height: 40vh;
+}
+
+.cardimage {
+  height: 120px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardbody {
+  text-align: center;
+}
+
+.prolevel {
+  width: 100px;
+  height: 35px;
+  margin: auto;
+  padding-top: 5px;
+  border-radius: 20px;
+  background-color: rgb(38, 87, 255);
+  color: white;
+}
+
+.bodyfooter {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.avatar {
+  height: 100px;
+  margin-top: -50px;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar > img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}

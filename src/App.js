@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap-css-only/css/bootstrap.min.css";
+import "mdbreact/dist/css/mdb.css";
+import { MDBContainer, MDBRow, MDBCol } from "mdbreact";
+import "./App.css";
+import Payment from "./components/payment/Payment";
+import UserCard from "./components/usercard/UserCard";
+import Price from "./components/price/Price";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MDBContainer>
+      <MDBRow className="bodycont">
+        <MDBCol lg="8">
+          <Payment />
+        </MDBCol>
+        <MDBCol lg="4">
+          <UserCard />
+          <Price />
+        </MDBCol>
+      </MDBRow>
+    </MDBContainer>
   );
 }
 

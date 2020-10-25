@@ -1,0 +1,31 @@
+.count {
+  font-size: 40px;
+  font-weight: 400;
+  margin: 0px;
+  line-height: 40px;
+  letter-spacing: 2px;
+  padding-right: 10px;
+}
+
+.icon {
+  color: #aaa;
+  padding-right: 10px;
+}
+
+.year {
+  padding-top: 15px;
+  color: #aaa;
+  margin: 0px;
+  padding-right: 10px;
+}
+
+.amount {
+  display: flex;
+  float: right;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .amount {
+    display: block;
+  }
+} */
