@@ -23,9 +23,3 @@
   display: flex;
   float: right;
 }
-
-/* @media only screen and (max-width: 600px) {
-  .amount {
-    display: block;
-  }
-} */
