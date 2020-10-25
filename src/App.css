@@ -9,3 +9,8 @@ body {
 .bodycont {
   min-height: 100vh;
 }
+
+.col-sm-6 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
